@@ -1,0 +1,100 @@
+body{
+    background-color: #EEEEEE;
+    color: #222831;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+    font-size: 18px;
+
+}
+header > img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+ul {
+    background-color: #31363F;
+    text-align: center;
+    font-size: 25px;
+    border-radius: 20px;
+}
+li{
+    list-style: none;
+    display: inline-block;
+    margin: 20px 70px;
+}
+li a {
+    text-decoration: none;
+    color: #EEEEEE;
+}
+li a:hover{
+    text-decoration: underline;
+}
+h1{
+    font-size: 40px;
+}
+h2{
+    font-size: 30px;
+    text-align: center;
+}
+section{
+    display: grid;
+}
+section .special{
+    padding: 0 30px;
+}
+
+article{
+grid-row: 1;
+background-color: #d2d0d0;
+margin: 30px 10px;
+border-radius: 20px;
+padding: 0 10px;
+box-shadow: #a4a4a4 0px 5px 11px 0px;
+}
+article img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    mix-blend-mode: multiply;
+    width: 150px;
+    height: 150px;
+    
+}
+button{
+    background-color: #222831;
+    width: 50%;
+    padding: 10px 10px;
+    border-radius: 20px;
+    border: none;
+    font-size: 15px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 12%;
+    color: #EEEEEE;
+}
+button:hover{
+    text-decoration: underline;
+}
+
+article .hours{
+    padding-left: 50px;
+}
+footer{
+    display: flex;
+    padding: 0 20px;
+}
+div{
+    flex: 1;
+}
+div img{
+    height: 80px;
+    
+}
+div p{
+    text-align: end;
+    color: #d8644c;
+}
